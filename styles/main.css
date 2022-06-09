@@ -4,10 +4,16 @@ body{
     background-color: white;
 }
 .container{
+    padding: 10px;
     border: 1px solid #ffa500(0, 0, 0);
     width: 20%;
     margin: auto;
     display: flex;
+}
+
+img{
+    width: 20%;
+    text-align: right;
 }
 div {
     margin: 10px;
@@ -15,7 +21,7 @@ div {
 }
 
 footer {
-    background-color: gray;
+    background-color: rgb(128, 128, 128);
     color: white;
     padding: 5px;
     text-align: center;
