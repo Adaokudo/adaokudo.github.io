@@ -1,15 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
 img {
     float: right;
-    width: 18%;
+    width: 17%;
+    margin-top: -0.7em;
+    border-radius: 5px;
+    margin-right: -0.3em;
+    
 }
 
+
 div {
-    max-width: 960px;
+    max-width: 900px;
     margin: auto;
 }
 
 header {
-    padding: 5px;
+    padding: 4px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 header, footer {
@@ -18,9 +28,19 @@ header, footer {
 }
 
 main {
-    padding: 10px;
+    padding: 5px;
 }
 
 footer {
-    padding: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+body {
+font-family: Arial, Helvetica, sans-serif;
+display: block;
+margin-top: 10px;
+margin-left: 50px;
+margin-right: 50px;
+padding: 3em;
 }
