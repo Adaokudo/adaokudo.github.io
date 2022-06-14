@@ -6,45 +6,52 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title> ADAOBI OKUDO </title>
 	<!-- <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" > -->
-	<link rel="stylesheet" href="styles/Normalize.css">
-    <link rel="stylesheet" href="design.css">
-    <link rel="stylesheet" href="Mdesign.css">
-    <link rel="stylesheet" href="large.css">
+	<link rel="stylesheet" href="d-styles/Normalize.css">
+    <link rel="stylesheet" href="d-styles/design.css">
+    <link rel="stylesheet" href="d-styles/Mdesign.css">
+    <link rel="stylesheet" href="d-styles/large.css">
 </head>
 <body>
-    <header>
+    <div id ="content">
+       <header>
             <h1> DESIGN PRINCIPLE DOCUMENT</h1>
                <h2> Adaobi Okudo</h2>
-    </header>
-    <main>
-        <div class = p-design></div>
-            <h4 class = "principle"> CONTRAST</h4> 
-            <h4 class = "principle"> Allure</h4>
-            <a  class = "link" href =https://allure.com.ng> allure stores</a>
-            <img src = contrast12.png alt = "color contrast">
-             <p class ="content">Contrast is the practice of making design elements look different from each other 
+       </header>
+       <main> 
+            <section class ="grid-one">
+                <h2>PARC:CONTRAST</h2><hr>       
+                <a   href =https://allure.com.ng> Allure Online Stores</a>
+               <img src = d-images/contrast12.png alt = "color contrast">
+               <p>Contrast is the practice of making design elements look different from each other 
                in order to make the important elements stand out,
                it leads the viewer`s eye towards what is important.
                Contrast is seen in color, font size and image placement
-               looking at the above website, the color combination is nice ...
-            </p>
-        </div>
-        <div class = p-design></div>
-                <h4 class = "principle">  proximity </h4> 
-                <h4 class = "principle"> Allure</h4>
-                <a class = "link" href =https://allure.com.ng/></a>
-               :Things that are related should be close together.
-                Things that are unrelated should be further apart.
-        </div>
-        <div class = p-design></div>
-                <h4 class = "principle">Visual hierarchy </h4> 
-                <h4 class = "principle"> Allure</h4>
-                <a class = "link" href =https://allure.com.ng/></a> 
-                 is a design principle that refers to how elements are arranged in a design
-                presentation of elements in such a manner that implies significance
+               looking at the above website, the color combination is nice making the page look
+               eye catchy and readable.
+              </p>
+           </section>
+        
+            <section class = "grid-two">
+                <h2>PARC: PROXIMITY </h2><hr>  
+                <a   href =https://RescureTime.com> RescureTime Online Website</a>
+                <img src = d-images/proximity12.png alt = "color contrast">
+                <p> Things that are related should be close together.
+                Things that are unrelated should be further apart.  in the above 
+                example each text is related the heading 
                 </p>
-        </div>
-    <footer>
+            </section>
+
+            <section class = "grid-three" >
+                <h2> VISUAL HIERARCHY </h2><hr>          
+                <a   href =https://github.com.ng> Github.com </a> 
+                <img src = d-images/visual.png alt = "color contrast">
+                 <p> The above example is a design principle that refers to how elements are arranged in a design
+                presentation of elements in such a manner that implies significance. the above the 
+                text is aligned from the bigger text down the smaller.
+                </p>
+            </section>
+        </main> 
+       <footer>
             <div>
                 <p>
                 <span>
@@ -52,8 +59,14 @@
                     <a href="https://www.byui.edu/online">BYUI Online Learning</a>   
                 </span>
                 </p>
+                <p> last updated:
+                    <span id = "currentdate"></span>
+                </p>
             </div>
-    </footer>        
-    </main> 
-    
+       </footer> 
+
+    <script src="scripts/date.js"></script>
+   </div>       
+ 
 </body>
+</html>

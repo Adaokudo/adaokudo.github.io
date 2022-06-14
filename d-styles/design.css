@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+#content  {
+    display: block;
+    font-size: 1rem ;
+    padding:10pt;
+    text-align: center;
+    color:  black;
+}
+section {
+    padding:0 20px 0 20px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+
+}
+
+.grid-two > span {
+    line-height: 10px;
+}
+section > img {
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 20px;
+    border:6px solid #6d466b;;
+    display:block;
+    height: 60%;
+    margin-right:auto ;
+    
+
+}
+
+
+body{
+    background-color: powderblue;
+}
+#content a:hover{
+    text-decoration: underline;
+}
+h1, h2{
+    font-family: "Mate Sc", serif;
+    letter-spacing: 1px;
+}
+
+
+main {
+display: grid;
+margin: auto;
+min-height: 100px;
+}
+
+
+p{
+padding:1rem;
+margin: 0;
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 1.2rem;
+}
+
+link{
+padding-top: 0;
+
+}
+
+
+footer > p {
+    line-height: 20px
+  
+}

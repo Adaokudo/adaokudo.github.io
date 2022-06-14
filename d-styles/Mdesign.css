@@ -1,0 +1,32 @@
+@media (min-width: 32.3em) {
+  @media (max-width: 80em) {
+    main {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+}
+main {
+  display: grid;
+  margin: auto;
+  min-height: 100px;
+  justify-items: center;
+  grid-gap: 20px;
+}
+section > img {
+  width: 80%;
+  border-radius: 10px;
+  margin-top: 20px;
+  border:5px solid #6d466b;;
+  display:block;
+  height: 60%;
+  margin-right:auto ;
+  margin-left: auto;
+  
+
+}
+footer > p {
+  line-height: 20px
+
+}
+
+   
