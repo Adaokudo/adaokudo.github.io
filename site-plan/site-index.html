@@ -6,11 +6,61 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title> ADAOBI OKUDO </title>
 	<!-- <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" > -->
-	<link rel="stylesheet" href="Normalize.css">
-    <link rel="stylesheet" href="site-plan/main.css">
-    <link rel="stylesheet" href="styles/medium.css">
+	<link rel="stylesheet" href="site-css/Normalize.css">
+    <link rel="stylesheet" href="site-css/main.css">
+    <link rel="stylesheet" href="site-css/medium.css">
 </head>
-<header>
-    <h1>MY WEATHER</h1>
-    <img src = "site-images/" alt = "my logo" >
-</header>
+<body>
+   <header>
+      <div id ="logo">
+         <img src = "site-images/weather-icon-png-2.png" alt = "my logo" >
+         <h1> MY WEATHER </h1>
+        </div>   
+    </header>
+    <nav>
+      <ul>
+        <li><a href = "#" class="active">Home</a></li>
+        <li><a href = "#">Preston</a></li>
+        <li><a href = "#">Soda Springs</a></li>
+        <li><a href = "#">Fish Haven</a></li>
+        <li><a href = "#">Storm Center</a> </li>
+        <li><a href = "#">Gallery.</a></li>
+      </ul>
+ </nav>
+ <main>
+    <h2> Avaliable domin name:</h2><hr>
+      <ul>
+        <li>ForecastMe.com</li>
+        <li>Sunnyday.com</li>
+        <li>InfoWeather.com</li>
+    </ul>
+
+
+    <article>
+        <h2> Site purpose </h2><hr>
+        <p> The site purpose is to provide accurate weather forcast
+        to our customers and visitors</p>
+    </article> 
+
+   <ul>
+        <li><a href=" color-scheme.html">Color-scheme</a></li>
+        <li><a href=" target.html"> Target audience</a></li>
+        <li><a href=" topography.html">Topography</a></li>
+          
+    </ul> 
+    
+    <footer>
+            <div class="bottom">
+                &copy; 2022 |Adaobi okudo | Nigeria |
+                    <a href="https://www.byui.edu/online">BYUI Online Learning</a>   
+                    <p id="demo"></p>
+
+                <script>
+                    const d = "Last Updated"+":" + new Date();
+                    document.getElementById("demo").innerHTML = d;
+                </script>  
+    
+    </footer>
+</body>
+ </main>
+</html>
