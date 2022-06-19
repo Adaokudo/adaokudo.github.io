@@ -10,6 +10,16 @@ body {
     padding: 4rem;
     border: 1px  solid rgb( blue, alpha);
    
+   
+}
+.motto{
+    font-style: italic;
+    ;
+    letter-spacing: 1pt;
+    color:black;
+    margin-left: 20px;
+    font-size: .9rem;
+
 }
 main{
     height: 100%;
@@ -107,6 +117,7 @@ display: flex;
   }
   .Accent1 {
     background-color: #ffb703;
+
   }
   /** meduim css**/
  @media only screen and (min-width: 32.5em) {
@@ -116,26 +127,26 @@ display: flex;
     color: black;
 }
 
-main {
+    main {
     padding: .75px;
 }
 
-footer {
+    footer {
     padding: .75px;
     border-radius: 10px;
    
 }
 
-body {
-font-family: Arial, Helvetica, sans-serif;
-display: block;
-margin-top: 10px;
-margin-left: 50px;
-margin-right: 50px;
-padding: .75em;
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: .75em;
 }
  }
- 
+
 /** large css**/
 @media only screen and (min-width: 60em) {
 	h1 {

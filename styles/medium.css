@@ -1,3 +1,6 @@
+
+@media (max-width: 60em) {
+
 img {
     float: right;
     width: 17%;
@@ -18,29 +21,30 @@ header {
     text-align: center;
     
 }
+}
 @media only screen and (min-width: 32.5em) {
 
     header, footer {
     background-color: lightblue;
     color: black;
-}
+    }
 
-main {
+    main {
     padding: 5px;
-}
+    }
 
-footer {
+    footer {
     padding: 5px;
     border-radius: 10px;
     text-align: center;
-}
+    }
 
-body {
-font-family: Arial, Helvetica, sans-serif;
-display: block;
-margin-top: 10px;
-margin-left: 50px;
-margin-right: 50px;
-padding: 3em;
-}
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 3em;
+    }
 }
