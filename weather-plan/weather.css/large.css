@@ -1,0 +1,21 @@
+/** large viewpoint**/
+@media only screen and (min-width:1100px){
+
+    body{
+        background-image: url("/site-plan/site-images/weather-sk3.jpg");
+        color: black;
+        font-family: "Mate Sc", serif;
+        font-size: 1rem;   
+    }
+    
+    nav a {
+        font-size: 1.2em;
+    }
+
+    nav ul li a{
+        padding:1rem 
+    }
+    
+
+    
+}

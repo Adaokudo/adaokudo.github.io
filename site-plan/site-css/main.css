@@ -9,12 +9,12 @@ body {
     background-color: skyblue;
     padding: 4rem;
     border: 1px  solid rgb( blue, alpha);
+    
    
    
 }
 .motto{
     font-style: italic;
-    ;
     letter-spacing: 1pt;
     color:black;
     margin-left: 20px;
@@ -43,9 +43,11 @@ nav ul{
     margin-top: 0;
     margin-bottom: 0
     }
+
 nav li{
     flex: 1 1 auto;
 }
+
 nav ul li a{
     display: block;
     color: #fff;
