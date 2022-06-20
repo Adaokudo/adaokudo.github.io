@@ -21,9 +21,11 @@
         display: flex;
         margin-left: 2vw;
         flex: 1 1 100%;
+       
     }
     nav ul li a{
         border:none;
+        
         
     }
 
