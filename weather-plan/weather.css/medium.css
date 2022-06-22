@@ -16,18 +16,54 @@
     }
 
     nav button{display: none;}
+
+    nav ul{
+      list-style-type: none;
+    }
     
     nav ul#primaryNav{
         display: flex;
         margin-left: 2vw;
         flex: 1 1 100%;
        
+       
     }
     nav ul li a{
         border:none;
-        
-        
+       
     }
+    .herodiv{
+        margin: 80px auto;
+        position: relative;
+       
+        
+       }
+       h2{
+         margin: 0 0 .5rem
+       }
+       
+       p{
+         margin:0
+       }
+       
+       .stats{
+         position:absolute;
+         top: 9rem;
+         left:1rem;
+         background: radial-gradient(#eee, #4567aa);
+        border: 1px solid #000;
+         padding:1.2rem;
+         box-shadow: 0 0 30px #333;
+         opacity: 0.9
+          
+       }
+       
+       .stats span{
+         font-style: italic;
+           font-weight: 700;
+       }
+       
+       
 
     
 

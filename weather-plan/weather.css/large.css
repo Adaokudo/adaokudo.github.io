@@ -11,9 +11,43 @@
     nav a {
         font-size: 1.2em;
     }
+    nav ul{
+      list-style-type: none;
+    }
 
     nav ul li a{
-        padding:1rem 
+        padding: 5rem 
     }
+    .herodiv{
+        margin: 100px auto;
+        position: relative;
+       }
+       h2{
+         margin: 0 0 .5rem
+       }
+       
+       p{
+         margin:0
+       }
+       
+       .stats{
+         position:absolute;
+         top: 9rem;
+         left:1rem;
+         background: radial-gradient(#eee, #4567aa);
+        border: 1px solid #000;
+         padding:1.2rem;
+         box-shadow: 0 0 30px #333;
+         opacity: 0.9
+          
+       }
+       
+       .stats span{
+         font-style: italic;
+           font-weight: 700;
+       }
+       
+       
+         
     
 }
