@@ -1,0 +1,40 @@
+
+    
+@media only screen and (min-width: 32.5em) {
+
+    header, footer {
+    background-color: lightblue;
+    color: black;
+    }
+
+    main {
+    padding: .75px;
+    }
+
+    footer {
+    padding: .75px;
+    border-radius: 10px;
+   
+    }
+
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: .75em;
+    }
+    nav button{display: none;}
+    
+    nav ul#primaryNav{
+        display: flex;
+        margin-left: 5vw;
+        flex: 1 1 100%;
+       
+       
+    }
+    nav ul li a{
+        border:none;
+    }   
+ }

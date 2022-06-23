@@ -6,21 +6,26 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title> ADAOBI OKUDO </title>
 	<!-- <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" > -->
-	<link rel="stylesheet" href="weather.css/large.css">
-    <link rel="stylesheet" href="weather.css/medium.css">
-    <link rel="stylesheet" href="weather.css/small.css">
+	<link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/small.css">
     
 </head>
 <body>
-    <header>
+  <div id="alert-banner">
+        <p>
+            Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion!
+        </p>
+    </div>
+  <header>
         <picture>
-            <img src = "w-images/weather-icon-png-2.png" alt = "my logo">
+            <img src = "images/weather-icon-png-2.png" alt = "my logo">
         </picture>
         <div class="headings"> 
          <h1>MY WEATHER</h1>
          <h2 id="motto"> its all about nature check</h2>
-        </sdiv>
-    </header> 
+        </div>
+   </header> 
    <nav>
    <button id ="hamBtn"><span>&#9776</span><span>x</span></button>
         <ul id = "primaryNav"  >
@@ -32,35 +37,43 @@
           <li><a href = "#">Gallery.</a></li>
         </ul>
    </nav>
-   <main>
-    <div class="herodiv">
-      <picture>
-        <img src="w-images/overlaayimage.png" alt="hero image">
-      </picture>
-      <section class="stats">
-        <h2>weather summary</h2>
-        <p>Name: <span id="name">Tasha</span></p>
-        <p>Gender: <span id="gender">Female</span></p>
-        <p>Age: <span id="age">2.5</span></p>
-        <p>Shots?: <span id="shots">Yes</span></p>
-      </section>
-    </div>
-     <h1> Preston Idaho </h1>
-     <section  class ="content">Hero w/ weather summary</section>
-     <section  class ="content">5 Day Forecast</section>
-     <section  class ="content">Article</section>
-     <section  class ="content">Contact Information</section>     
+   <main> 
+    <h2>Preston Idaho</h2>
+	<div class="herodiv">
+		<picture>
+			<!--<img src="images/overlaayimage.png" alt="hero image">-->
+		</picture>
+		<section class="stats">	
+      <h3>Weather Summary</h3>
+        <p>Location: <span id="name">Asaba</span></p>
+        <p>Currently: <span id="gender">Sunny</span></p>
+        <p>Humidity: <span id="age">77% &#176</span></p>
+        <p>Dew Point: <span id="shots">23 °C &#176</span></p>
+        </section>
+      </div>
+            
+                 
+     
+       <div class="article">
+        <h3>Health Talks</h3>
+        <p>Typically it takes place in a health centre or clinic, at the beginning of the day, when the patients have arrived. Health talks are also commonly given to the patients in a hospital ward.
+          The subject matter is decided upon by the health care staff, often in advance  they may have a programme worked out for the month. Often the subject matter is related to the medical programme for the day – for example, if it is the day for the glaucoma clinic the talk might deal with compliance.
+          The talk is usually given in the local language, which is good for communication.
+          Visual aids may be used posters, or real objects like birth control tablets.</p>
+        </div>
+  </main>
    <footer>
      <div class="bottom">
+      <section  class = "Contact Information"></section>
         &copy; 2022 |Adaobi okudo | Nigeria |
             <a href="https://www.byui.edu/online">BYUI Online Learning</a>   
             <p id="demo"></p>
 
         </footer>  
-        <script src="w.js/preston.js"></script>
+        <script src="js/preston.js"></script>
   
      </div> 
-   </main> 
+    </main> 
 </body>
 
 </html>

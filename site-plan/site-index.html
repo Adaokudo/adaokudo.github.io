@@ -6,9 +6,11 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title> ADAOBI OKUDO </title>
 	<!-- <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" > -->
-	<link rel="stylesheet" href="site-css/Normalize.css">
-    <link rel="stylesheet" href="site-css/main.css">
-    <link rel="stylesheet" href="site-css/medium.css">
+  <link rel="stylesheet" href="site-css/main.css">
+  <link rel="stylesheet" href="site-css/meduim.css">
+  <link rel="stylesheet" href="site-css/large.css">
+  <link rel="stylesheet" href="site-css/Normalize.css">
+    
 </head>
 <body>
    <header>
@@ -20,12 +22,14 @@
     </header>
     <nav>
       <ul>
-        <li><a href = "#" class="active">Home</a></li>
-        <li><a href = "#">Preston</a></li>
-        <li><a href = "#">Soda Springs</a></li>
-        <li><a href = "#">Fish Haven</a></li>
-        <li><a href = "#">Storm Center</a> </li>
-        <li><a href = "#">Gallery.</a></li>
+      <button id ="hamBtn">&#9776;</button>
+         <ul id = "primaryNav"  >
+           <li><a href = "#" class="active">Home</a></li>
+           <li><a href = "#">Preston</a></li>
+           <li><a href = "#">Soda Springs</a></li>
+           <li><a href = "#">Fish Haven</a></li>
+           <li><a href = "#">Storm Center</a> </li>
+           <li><a href = "#">Gallery.</a></li>
       </ul>
  </nav>
  <main>
@@ -35,8 +39,6 @@
         <li>Sunnyday.com</li>
         <li>InfoWeather.com</li>
     </ul>
-
-
     <article>
         <h2> Site Purpose </h2><hr>
         <p> The site purpose is to provide accurate weather forcast
@@ -51,18 +53,17 @@
     </ul> 
     
     <footer>
-            <div class="bottom">
-                &copy; 2022 |Adaobi okudo | Nigeria |
-                    <a href="https://www.byui.edu/online">BYUI Online Learning</a>   
-                    <p id="demo"></p>
-
-                <script>
-                    const d = "Last Updated"+":" + new Date();
-                    document.getElementById("demo").innerHTML = d;
-                </script>  
-    
-    </footer>
-  
-</body>
-</main> 
-</html>
+      <div class="bottom">
+         &copy; 2022 |Adaobi okudo | Nigeria |
+             <a href="https://www.byui.edu/online">BYUI Online Learning</a>   
+             <p id="demo"></p>
+ 
+         </footer>  
+         <script src="w.js/preston.js"></script>
+   
+      </div> 
+    </main> 
+ </body>
+ 
+ </html>
+   
