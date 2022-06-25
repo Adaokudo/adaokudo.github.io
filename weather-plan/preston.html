@@ -8,26 +8,26 @@
 	<!-- <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" > -->
 	<link rel="stylesheet" href="css/large.css">
     <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/small.css">
-    
+    <link rel="stylesheet" href="css/small.css">   
 </head>
 <body>
   <div id="alert-banner">
-        <p>
-            Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion!
-        </p>
+          <p>Saturday = Preston Pancakes in the Park!
+            9:00 a.m. Saturday at the city park.</p>
     </div>
-  <header>
+    <header>
+      <div id="logo">
         <picture>
             <img src = "images/weather-icon-png-2.png" alt = "my logo">
         </picture>
-        <div class="headings"> 
+       </div>
+       <div class="headings"> 
          <h1>MY WEATHER</h1>
          <h2 id="motto"> its all about nature check</h2>
-        </div>
-   </header> 
-   <nav>
-   <button id ="hamBtn"><span>&#9776</span><span>x</span></button>
+       </div>
+      </header> 
+    <nav>
+    <button id ="hamBtn"><span>&#9776</span><span>x</span></button>
         <ul id = "primaryNav"  >
           <li><a href = "#">Home</a></li>
           <li><a href = "#">Preston</a></li>
@@ -36,39 +36,50 @@
           <li><a href = "#">Storm Center</a> </li>
           <li><a href = "#">Gallery.</a></li>
         </ul>
-   </nav>
-   <main> 
-    <h2>Preston Idaho</h2>
-	<div class="herodiv">
-		<picture>
+    </nav>
+ 
+    <main> 
+      <h2>Preston Idaho</h2>
+	    <div class="herodiv">
+		  <picture>
 			<!--<img src="images/overlaayimage.png" alt="hero image">-->
-		</picture>
-		<section class="stats">	
-      <h3>Weather Summary</h3>
+		  </picture>
+		  <section class="stats">	
+        <h3>Weather Summary</h3>
         <p>Location: <span id="name">Asaba</span></p>
         <p>Currently: <span id="gender">Sunny</span></p>
         <p>Humidity: <span id="age">77% &#176</span></p>
         <p>Dew Point: <span id="shots">23 °C &#176</span></p>
-        </section>
-      </div>
-            
-                 
-     
+       </section>
+       </div>
        <div class="article">
-        <h3>Health Talks</h3>
-        <p>Typically it takes place in a health centre or clinic, at the beginning of the day, when the patients have arrived. Health talks are also commonly given to the patients in a hospital ward.
-          The subject matter is decided upon by the health care staff, often in advance  they may have a programme worked out for the month. Often the subject matter is related to the medical programme for the day – for example, if it is the day for the glaucoma clinic the talk might deal with compliance.
+        <h3>Health Talks</h3>   
+           <div class="article-text">Typically it takes place in a health centre or clinic, at the beginning of the day, when the patients have arrived. Health talks are also commonly given to the patients in a hospital ward.
+          The subject matter is decided upon by the health care staff, often in advance  they may have a programme worked out for the month. Often the subject matter is related to the medical programme for the day-for example, if it is the day for the glaucoma clinic the talk might deal with compliance.
           The talk is usually given in the local language, which is good for communication.
-          Visual aids may be used posters, or real objects like birth control tablets.</p>
+           Visual aids may be used posters, or real objects like birth control tablets</div> 
+           
         </div>
-  </main>
-   <footer>
-     <div class="bottom">
-      <section  class = "Contact Information"></section>
-        &copy; 2022 |Adaobi okudo | Nigeria |
+     </main>
+     
+     <footer>
+      <div class="bottom">
+          <h3>Contact Information</h>
+          <div class ="contact">
+            <p>oku22001@byui.edu</p>
+            <p>0813-000-000</p>
+            <p>plot 31 Embassy Road Asaba Nigera</p>
+            </div>
+            <div class = "social">
+            <a href ="https://www.facebook.com" target ="blank"></a><img src="images/facebook.png" alt="social"></a>
+            <a href ="https://www.facebook.com" target ="blank"></a><img src="images/instag.jpg" alt="social"></a> 
+            <a href ="https://www.facebook.com" target ="blank"></a><img src="images/email.png" alt="social"></a>
+            </div>
+            <div class ="info">
+             &copy; 2022 |Adaobi okudo | Nigeria |
             <a href="https://www.byui.edu/online">BYUI Online Learning</a>   
             <p id="demo"></p>
-
+            </div>
         </footer>  
         <script src="js/preston.js"></script>
   

@@ -7,13 +7,14 @@
         justify-content: center;
         align-items: center;
     } 
+    #logo {
+      display: block;
+      min-width: 15%;
+  }
     .motto{
         font-size: 3rem;
     }
-    header img {
-        display: block;
-        min-width: 25%;
-    }
+    
 
     nav button{display: none;}
 
@@ -44,9 +45,6 @@
     .herodiv{
         
         position: relative;
-        
-       
-        
        }
        h2{
          margin: 0 0 .5rem

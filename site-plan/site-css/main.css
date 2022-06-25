@@ -120,15 +120,15 @@ display: flex;
 
 }
 .Primary {
-    background-color: #36454f;
+    background-color: #041520;
     color: white;
   }
   .Secondary {
-    background-color: skyblue;
+    background-color: #87CEEB;
     
   }
   .Accent1 {
-    background-color: #ffb703;
+    background-color:  #E0FFFF;
 
   }
   /** meduim css**/

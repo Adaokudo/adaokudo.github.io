@@ -4,38 +4,45 @@ body{
     color: black;
     font-family: "Mate Sc", serif;
     margin-left: 50px;
-    margin-right: 50px;   
+    margin-right: 50px; 
     
+    
+}
+#alert-banner {
+   
+    background-color: coral;
+    padding: 0.3em;
+    text-align: center
 }
 
 header{
     display:flex;
-    background-color: skyblue;
+    background-color: lightskyblue;
     padding: 20px 0 ;  
     align-items: center;
     justify-content: center;
-    padding-bottom: 3em; 
-    margin: 0 auto; 
+    padding-bottom: 1em;
+    padding-top: 1em;
+    
 } 
-
-header img {
-    width: 100px;
-    border-radius: 50px;
+#logo img{
+    max-width: 100px;
     height: auto;
-  
 }
 
 .headings{
     display: flex;
     flex-direction: column;
+    
 
 }
 .heading h1{
-    font-size: 1.6rem;
+    font-size: .5rem;
     margin: 20px;
 }
 .motto{
     font-style: italic;
+    font-weight: lighter;
     letter-spacing: 1pt;
     color: black;
     margin-left: 20px;
@@ -56,6 +63,8 @@ nav{
 }
 nav ul{
     list-style-type: none;
+    padding:0;
+    margin:0
 }
 nav ul li a{
     display: block;
@@ -63,7 +72,7 @@ nav ul li a{
     text-decoration: none;
     color: #fff;
     font-size: 0.95rem;
-    margin: auto;
+    margin-left: 0 auto;
 }
 
 nav ul li a:hover{
@@ -92,7 +101,7 @@ h1,h2,h3{
 
   
 main {
-    background-color: coral;
+    background-color:lightcyan;
     height: 100%;
     border: 1px solid grey; 
     margin: 0 auto; 
@@ -100,7 +109,7 @@ main {
 }
 .herodiv{
     position: relative;
-    background-image:url("/weather-plan/images/overlaayimage.png");
+    background-image:url("/weather-plan/images/wdd230_image_franklinOriginal.jpeg");
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -120,13 +129,7 @@ main {
     opacity: 0.9
   }
 
-.aritcle{
-    width:80%;
-    margin:0 auto;
-    padding: 0 1rem;
-    border: 1px solid #086788;
-    border-radius: 1em;
-}
+
 .weather-summary > h3 {
     margin: 0;
     margin-bottom: 10px;
@@ -134,14 +137,28 @@ main {
     border-bottom: 2px solid #faff81;
     font-weight: normal;
 }
+.article {
+    width:50%;
+    margin: left;
+    border: 1px solid #086788;
+    border-radius: 1em;
+    padding: 0 1em;
+}
 
-p{
-    padding:0rem;
-    margin: 0;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   
-    }
+.article a {
+    display:block;
+    padding-bottom: 1em;
+}
+
+.article img {
+    display: block;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+
+
 .content {
     background-color: #eee;
     border: 1px dashed #000;
@@ -153,7 +170,6 @@ p{
     background-color:darkgray;
 
 }
-
 
     h2{
      margin: 0 0 .5rem
@@ -180,6 +196,10 @@ p{
         background: skyblue;
         align-items: center;
 } 
+.contact{
+    font-size: 1rem;
+}
+
 
 
 
