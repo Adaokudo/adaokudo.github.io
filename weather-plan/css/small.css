@@ -140,16 +140,14 @@ main p, a {
     opacity: 0.9
   }
  
-   
-
     
-.weather summary > h3 {
-        margin: 0;
-        margin-bottom: 10px;
-        padding-bottom: 10px;
-        border-bottom: 3px solid #faff81;
-        font-weight: normal;
-    }
+  .weather summary > h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #faff81;
+    font-weight: normal;
+}
     
 .article {
         border: 3px solid #939696;
@@ -165,7 +163,6 @@ main p, a {
 }
 article .article-img {
    
-    width: 5%;
     margin-top: 0;
      
 }
