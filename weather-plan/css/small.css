@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+* 
+
 body{
     /**background-image: url("/site-plan/site-images/weather-sk3.jpg");**/
     background-color: white;
@@ -5,8 +8,7 @@ body{
     font-family: "Mate Sc", serif;
     margin-left: 50px;
     margin-right: 50px; 
-    
-    
+      
 }
 #alert-banner {
    
@@ -48,6 +50,10 @@ header{
     margin-left: 20px;
     font-size: .9rem;
 }
+nav{
+    background-color: #36454f;
+    	
+}
 
 nav button{
     margin:.2rem 2vw;
@@ -56,11 +62,7 @@ nav button{
     font-size: 2rem;
     color: whitesmoke;
 }
-nav{
-    background-color: #36454f;
-     
-	
-}
+
 nav ul{
     list-style-type: none;
     padding:0;
@@ -98,14 +100,23 @@ h1,h2,h3{
     word-wrap:break-word;
     white-space: normal;
 }
-
+h3 {
+    padding-left: 1em;
+    text-decoration: underline;
+  
+}
   
 main {
     background-color:lightcyan;
     height: 100%;
     border: 1px solid grey; 
-    margin: 0 auto; 
+    margin: 0 auto;
+    border: 1px solid grey;
+    padding-bottom: 1em;
    
+}
+main p, a {
+    padding-left: 1em;
 }
 .herodiv{
     position: relative;
@@ -119,7 +130,7 @@ main {
      
 }
 .stats{
-    position:absolute;
+    position: absolute;
     top: 9rem;
     left:1rem;
     background: radial-gradient(#eee, #4567aa);
@@ -128,37 +139,43 @@ main {
     box-shadow: 0 0 30px #333;
     opacity: 0.9
   }
+ 
+   
 
-
-.weather-summary > h3 {
-    margin: 0;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #faff81;
-    font-weight: normal;
-}
+    
+.weather summary > h3 {
+        margin: 0;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        border-bottom: 3px solid #faff81;
+        font-weight: normal;
+    }
+    
 .article {
-    width:50%;
-    margin: left;
-    border: 1px solid #086788;
-    border-radius: 1em;
-    padding: 0 1em;
-}
+        border: 3px solid #939696;
+        border-radius: 1em;
+        padding: 0 1em;
+        margin: 1em;
+    }
 
-.article a {
+.article > p{
     display:block;
-    padding-bottom: 1em;
+    width:100%
+
+}
+article .article-img {
+   
+    width: 5%;
+    margin-top: 0;
+     
 }
 
-.article img {
-    display: block;
-    max-width: 90%;
-    margin: 0 auto;
-    margin-bottom: 1em;
+.fivedays{
+    display:none
+   
+   
 }
-
-
-
+   
 .content {
     background-color: #eee;
     border: 1px dashed #000;
@@ -179,8 +196,6 @@ main {
      margin:0
    }
    
-   
-   
    .stats span{
      font-style: italic;
        font-weight: 700;
@@ -199,6 +214,7 @@ main {
 .contact{
     font-size: 1rem;
 }
+
 
 
 
