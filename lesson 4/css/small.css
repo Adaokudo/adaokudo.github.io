@@ -126,15 +126,19 @@ figure img {width: 100%;
 figure {
     width: 250px;
      margin: 10px auto;
-      padding: 0;}
+      padding: 0;
+      background-color: white;}
+    
 .gallery-container {
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-content: center;
-        align-items: center;
-        
-    }
-figcaption {font-style: italic; margin-left: 5px; padding:2px ;}
+   display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+align-items: center}
+
+figcaption {font-style: italic; 
+    margin-left: 5px; 
+    padding:2px ;}
+    
     
 figure:hover{ box-shadow: 0 0 50px;}
     img[data-src]{
