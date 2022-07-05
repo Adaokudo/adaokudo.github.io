@@ -1,0 +1,66 @@
+@media only screen and (min-width:600px){
+        header {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+        } 
+        #logo {
+          display: block;
+          min-width: 15%;
+        }
+        .motto{
+            font-size: 3rem;
+        }
+        nav{
+            margin: 0 auto;
+            max-width: 100%;
+            list-style: none;
+            justify-content: flex-start;
+            box-shadow: 0 4px 1px -1px gray;
+            font-size: 0.9rem;
+        }
+        nav button{display: none;}
+    
+        nav ul{
+          list-style-type: none;
+            padding:0;
+            margin:0
+        }
+        
+        nav ul#primaryNav{
+            display: flex;
+            margin-left: 2vw;
+            flex: 1 1 100%;
+             
+        }
+        nav ul li a{
+            border:none;
+            padding:10px;
+            font-size: 1rem;
+            
+           
+        }
+        main {
+          width: 100%;
+          margin: 0 auto;  
+          height: 100%;      
+          padding-bottom: 1em;
+       }
+       .gallery-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    
+      
+
+  }
+      
+       
+      
+      
+        
+            
+        
+        
+    

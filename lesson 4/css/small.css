@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+* 
+body{
+    background-image: url("/site-plan/site-images/weather-sk3.jpg");
+    /**background-color: coral;**/
+    color: black;
+    font-family: "Mate Sc", serif;
+    background-attachment: fixed;
+    font-size: larger;
+    margin: 0;
+      
+}
+#alert-banner {
+   
+    background-color: coral;
+    padding: 0.3em;
+    text-align: center
+}
+
+header{
+    display:flex;
+    background-color: lightskyblue;
+    padding: 20px 0 ;  
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    
+} 
+#logo img{
+    max-width: 100px;
+    height: auto;
+}
+
+.headings{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.heading h1{
+    font-size: .5rem;
+    margin: 20px;
+}
+.motto{
+    font-style: italic;
+    font-weight: lighter;
+    letter-spacing: 1pt;
+    color: black;
+    margin-left: 20px;
+    font-size: .9rem;
+}
+nav{
+    background-color: #36454f;
+    	
+}
+
+nav button{
+    margin:.2rem 2vw;
+    background: transparent;
+    border:none;
+    font-size: 2rem;
+    color: whitesmoke;
+}
+
+nav ul{
+    list-style-type: none;
+    padding:0;
+    margin:0
+}
+nav ul li a{
+    display: block;
+    padding: .5rem 5vw;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.95rem;
+    margin-left: 0 auto;
+}
+
+nav ul li a:hover{
+    background-color: darkgray;
+}
+
+nav ul {display:none}
+nav ul.open{display:block}
+
+#hamBtn span:nth-child(1){display: block;}
+#hamBtn span:nth-child(2){display: none;}
+
+#hamBtn.open span:nth-child(1){display: none;}
+#hamBtn.open span:nth-child(2){
+    display: block;
+    color:red;
+}
+
+h1,h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 2px;
+    word-wrap:break-word;
+    white-space: normal;
+}
+h3 {
+   
+    padding-left: 1em;
+    text-decoration: underline;
+   
+}
+  
+main {
+    width: 100%;
+    height: 100%; 
+    margin: 0 auto;
+    border: 1px solid grey;
+    padding-bottom: 1em;   
+   
+}
+main h2{
+    font-family: 'Stoke', serif;  
+    text-align: center;
+}
+
+figure img {width: 100%;
+        filter: blur(0em);
+        transition: filter 0.5s; }
+figure {
+    width: 250px;
+     margin: 10px auto;
+      padding: 0;}
+.gallery-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        
+    }
+figcaption {font-style: italic; margin-left: 5px; padding:2px ;}
+    
+figure:hover{ box-shadow: 0 0 50px;}
+    img[data-src]{
+        filter: blur(0.05em);
+    }
+
+
