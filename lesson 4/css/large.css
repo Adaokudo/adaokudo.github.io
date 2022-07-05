@@ -5,8 +5,8 @@
       background-image: url("/site-plan/site-images/weather-sk3.jpg");
       
        font-family: "Mate Sc", serif;
-       position:bottom;
-       font-size: 1.2rem;
+     
+       font-size: 1.5rem;
      }
      #logo img{
         min-width: 190px;
@@ -34,10 +34,12 @@
         padding: 1.5rem; 
         font-size: 1.8rem;
     }
+
 /*for GALLERY PAGE*/
   .gallery-container {
   grid-template-columns: 1fr 1fr 1fr;}
 }
+
 
 
 

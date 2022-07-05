@@ -74,7 +74,7 @@ nav ul li a{
     text-decoration: none;
     color: #fff;
     font-size: 0.95rem;
-    margin-left: 0 auto;
+    
 }
 
 nav ul li a:hover{
@@ -118,6 +118,7 @@ main {
 main h2{
     font-family: 'Stoke', serif;  
     text-align: center;
+    
 }
 
 figure img {width: 100%;
@@ -144,5 +145,12 @@ figure:hover{ box-shadow: 0 0 50px;}
     img[data-src]{
         filter: blur(0.05em);
     }
+    footer {
+        padding: 5px;
+        background-color: skyblue;
+        border-radius: 10px;
+        text-align: center;
+    }
+
 
 

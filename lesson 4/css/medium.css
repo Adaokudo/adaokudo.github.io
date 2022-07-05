@@ -42,11 +42,13 @@
             padding:10px;
             font-size: 1rem;      
         }
-    
+    main h2{
+          font-size: 1rem}
+
   .gallery-container{
         grid-template-columns: 1fr 1fr;
     }
-    
+  
   }
       
        
