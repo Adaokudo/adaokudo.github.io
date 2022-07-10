@@ -34,14 +34,14 @@
          <li><a href = "#">Gallery.</a></li>
         </ul>
    </nav>
-    <form>
+    
         <h1> Storm Report</h1>
-        <form method="get" action="thanks.html">
+      <form method="get" action="thanks.html">
             <fieldset>
               <legend> Personal Information</legend>
                 <label class ="top">*First name:<input type ="text" name ='fname'required></label>
                 <label class ="top">*Last name :<input type ="text" name ='lname'required></label>
-                <label class ="top">*Email:<input type ="email" name =" email" placeholder="user@email.com"></label>
+                <label class ="top">Email:<input type ="email" name =" email" placeholder="user@email.com"></label>
                 <label class ="top">Phone number:<input type="tel" name ='fname'placeholder= 123-978-63> </label>
                 <label class ="top">Zip code:<input type="number" name ='code'placeholder= 234> </label>
             </fieldset>
@@ -54,16 +54,18 @@
                     <label class ="sbs"> <input type ="radio" name = "stormType" value ="Hurricane"> Hurricane</label>
                     <label class ="sbs"> <input type ="radio" name = "stormType" value ="Thunderstorm"> Thunderstorm,</label>
 
-                    <div> Danger Level:</div>
+                    <div> Any Danger:</div>
                      <label class ="sbs"><input type ="radio" name="level" value="Yes">Yes</label>
                      <label class ="sbs"><input type ="radio" name="level" value="No">No</label>
                      <label class ="sbs"><input type ="radio" name="level" value="Maybe">maybe</label>
                 
-                    <div>Storm Severity</div>
-                      <label><input type ="range"  id ="rating " value="5" min ="1" max="10" step="1"
+                    <div>Storm Severity:</div>
+                    <label for="number"></label>
+                      <input type ="range"  id ="rating " value="5" min ="1" max="10" step="1"
                         list="tickmarks" 
-                        oninput="adjustRating(this.value)" 
-                        onchange="adjustRating(this.value)">
+                        oninput="adjustRating(value)" 
+                        onchange="adjustRating(value)">
+                        <span id="ratingvalue">5</span>
                        </label>
                        <datalist id="tickmarks">
                             <option value="0"></option>
@@ -91,7 +93,8 @@
             </fieldset>
             <fieldset>
                 <legend>Comment</legend>
-                    <label class ="top"><input type="text" name ="Comment" placeholder ="Optional"></label>
+                <textarea name="comment" id=" text" cols="30" rows="10" ></textarea>
+                  
             </fieldset>
         <input type="submit" value ="Form submission"  class ="submitBtn">
     </form>
@@ -103,7 +106,7 @@
       <span><p id="demo"></p></span>
     </div>
   </footer>
-    <script src="js/g.js"></script>
+    <script src="js/form.js"></script>
     <script src="js/preston.js"></script>
     
   </div> 

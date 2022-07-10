@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
-* 
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 body{
     background-image: url("/site-plan/site-images/weather-sk3.jpg");
     /**background-color: coral;**/
@@ -160,12 +160,11 @@ form fieldset{
     padding:1rem 1%;
     border-radius: 10px;
     border:1px solid #444ba9;
-   
-
 }
 form legend{
-    margin:0 ;
-    padding:0 .2rem
+    margin:0 1rem;
+    padding:0 .2rem;
+    padding:0 .5rem 
 }
 form label.top, form div{
     display: block;
@@ -176,10 +175,14 @@ form label.input{
     display: block;
 }
 form label.top input,form label.top select{
+-webkit-appearance: none;
 display: block;
 border: 1px solid #9999;
 border-radius: 4px;
 padding: .50rem;
+width: 60%;
+max-width: 20rem;
+
 }
 form label.sbs{
     display: block;
@@ -194,6 +197,8 @@ form input.submitBtn{
     margin:0 0 2rem 2%;
     color:white;
     max-width: 20rem;
+    border: none;
+ 
 }
 
 
@@ -205,6 +210,13 @@ form label.top input:required:valid{
     border-left:green solid 3px
 
 }
+form input.submitBtn:hover {
+    opacity: 0.9;
+  }
+.thanks {
+    text-align:center;
+}
+
 
 
 

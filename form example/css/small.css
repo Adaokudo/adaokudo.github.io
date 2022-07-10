@@ -101,7 +101,7 @@ form label.top input,form label.top select{
     border-radius: 4px;
     padding: .50rem;
     width: 100%;
-   max-width: 20rem;
+    max-width: 20rem;
    background-color: rgba(0,0,0,0.1);
 }
 form label.sbs{
@@ -114,7 +114,7 @@ form input.submitBtn{
     border:none;
     background-color: #9c2c13;
     color: white;
-    border-radius: 1rem;
+    border-radius: 5px;
     padding: .50rem 1.5rem;
     margin: 0 0 2rem 2%;
     width:96%;
