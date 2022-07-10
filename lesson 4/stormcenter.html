@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> ADAOBI OKUDO </title>
+    <link rel="stylesheet" href="css//small.css">
+    <link rel="stylesheet" href="css//medium.css">
+    <link rel="stylesheet" href="css//large.css">
+   
+</head>
+<body>
+   <header>
+        <div id="logo">
+          <picture>
+            <img src = "images/weather-icon-png-2.png" alt = "my logo"> 
+           </picture>
+        </div>
+        <div class="headings"> 
+           <h1>MY WEATHER</h1>
+           <h2 id="motto"> its all about nature check</h2>
+       </div>
+   </header> 
+   <nav>
+    <main>
+   <button id ="hamBtn"><span>&#9776</span><span>x</span></button>
+       <ul id = "primaryNav"  >
+         <li><a href = "#">Home</a></li>
+         <li><a href = "#">Preston</a></li>
+         <li><a href = "#">Soda Springs</a></li>
+         <li><a href = "#">Fish Haven</a></li>
+         <li><a href = "#">Storm Center</a> </li>
+         <li><a href = "#">Gallery.</a></li>
+        </ul>
+   </nav>
+    <form>
+        <h1> Storm Report</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+              <legend> Personal Information</legend>
+                <label class ="top">*First name:<input type ="text" name ='fname'required></label>
+                <label class ="top">*Last name :<input type ="text" name ='lname'required></label>
+                <label class ="top">*Email:<input type ="email" name =" email" placeholder="user@email.com"></label>
+                <label class ="top">Phone number:<input type="tel" name ='fname'placeholder= 123-978-63> </label>
+                <label class ="top">Zip code:<input type="number" name ='code'placeholder= 234> </label>
+            </fieldset>
+            <fieldset>
+                <legend>Storm Details</legend>
+                   <label class ="top"> Storm date <input type ="date" name ="stormDate"></label>
+                   <div> Storm Type:</div>
+                    <label class ="sbs"> <input type ="radio" name = "stormType" value ="Flash Flood"> Flash flood</label>
+                    <label class ="sbs"> <input type ="radio" name = "stormType" value ="Hail"> Hail</label>
+                    <label class ="sbs"> <input type ="radio" name = "stormType" value ="Hurricane"> Hurricane</label>
+                    <label class ="sbs"> <input type ="radio" name = "stormType" value ="Thunderstorm"> Thunderstorm,</label>
+
+                    <div> Danger Level:</div>
+                     <label class ="sbs"><input type ="radio" name="level" value="Yes">Yes</label>
+                     <label class ="sbs"><input type ="radio" name="level" value="No">No</label>
+                     <label class ="sbs"><input type ="radio" name="level" value="Maybe">maybe</label>
+                
+                    <div>Storm Severity</div>
+                      <label><input type ="range"  id ="rating " value="5" min ="1" max="10" step="1"
+                        list="tickmarks" 
+                        oninput="adjustRating(this.value)" 
+                        onchange="adjustRating(this.value)">
+                       </label>
+                       <datalist id="tickmarks">
+                            <option value="0"></option>
+                            <option value="1"></option>
+                            <option value="2"></option>
+                            <option value="3"></option>
+                            <option value="4"></option>
+                            <option value="5"></option>
+                            <option value="6"></option>
+                            <option value="7"></option>
+                            <option value="8"></option>
+                            <option value="9"></option>
+                            <option value="10"></option>
+                        </datalist>  
+		
+
+                    <label class ="top"> Storm region: 
+                        <select name ="" value="please select">
+                            <option value="">Please select</option>
+                            <option value="Preston,">Preston</option>
+                            <option value="Soda Springs">Soda Springs</option>
+                            <option value="Fish Haven">Fish Haven</option>
+                        </select>
+                    </label>   
+            </fieldset>
+            <fieldset>
+                <legend>Comment</legend>
+                    <label class ="top"><input type="text" name ="Comment" placeholder ="Optional"></label>
+            </fieldset>
+        <input type="submit" value ="Form submission"  class ="submitBtn">
+    </form>
+   </main>
+   <footer>
+    <div class ="info">
+      &copy; 2022 |Adaobi okudo | Nigeria |
+     <a href="https://www.byui.edu/online">BYUI Online Learning</a>   
+      <span><p id="demo"></p></span>
+    </div>
+  </footer>
+    <script src="js/g.js"></script>
+    <script src="js/preston.js"></script>
+    
+  </div> 
+
+
+
+  </html>
+

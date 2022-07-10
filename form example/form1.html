@@ -11,9 +11,6 @@
 <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-
-
-
 <!-- STYLE SHEETS -->
 <link href="css/normalize.css" rel="stylesheet">
 <!-- phone-default -->
@@ -44,40 +41,39 @@
         </ul>
     </nav>
     
-    
 <!-- CONTENT HERE -->
 <main>
     <h1>Course Proposal Application</h1>
     <form method="get" action="thanks.html">
         <fieldset>
           <legend>Applicant information</legend>
-             <label>*first name <input type="text" name ="fname" required></label>
-             <label>*last name <input type="text" name ="lname" required></label>
-             <label>Phone <input type="tel" name ="lname" placeholder="123456789" ></label>
-             <label>*Email: <input type="email" name ="lname" placeholder="someone@gmail.com"></label>
-             <label>website: <input type="url" name ="lname" placeholder="https://"></label>
+             <label class ="top">*first name <input type="text" name ="fname" required></label>
+             <label class ="top">*last name <input type="text" name ="lname" required></label>
+             <label class ="top">Phone <input type="tel" name ="lname" placeholder="123456789" ></label> 
+             <label class ="top">*Email: <input type="email" name ="lname" required="someone@gmail.com"></label>
+             <label class ="top">website: <input type="url" name ="lname" placeholder="https://"></label>
         </fieldset>  
         <fieldset>
             <legend>course information</legend>
             <div>Audience</div>
-            <label><input type="radio"name ="audience" value="beginner">beginner</label>
-            <label></label><input type="radio"name ="audience" value="intermediary">intermediary</label>
-            <label></label><input type="radio"name ="audience" value="advanced">advanced</label>
+            <label class ="sbs"></label><input type="radio"name ="audience" value="beginner">beginner</label>
+            <label class ="sbs"></label><input type="radio"name ="audience" value="intermediary">intermediary</label>
+            <label class ="sbs"></label><input type="radio"name ="audience" value="advanced">advanced</label>
 
             <div> software needed</div>
-            <label><input type="checkbox"name ="editing " value="yes">photo editing</label>
-            <label><input type="checkbox"name ="code " value="yes">coding</label>
-            <label><input type="checkbox"name ="process " value="yes">preprocessory</label>
-            <label><input type="checkbox"name ="client " value="yes">ftp client</label>
+            <label class ="sbs"><input type="checkbox"name ="editing " value="yes">photo editing</label>
+            <label class ="sbs"><input type="checkbox"name ="code " value="yes">coding</label>
+            <label class ="sbs"><input type="checkbox"name ="process " value="yes">preprocessory</label>
+            <label class ="sbs"><input type="checkbox"name ="client " value="yes">ftp client</label>
 
         </fieldset> 
         <fieldset> 
              <legend>funding</legend>   
        
-            <label>anticipated completed date <input type="date" name=" completedDate"></label>
-            <label> course subject
-                <select name="subect">
-                    <option value =" ">Please select</option>
+            <label class ="top">anticipated completed date <input type="date" name=" completedDate"></label>
+            <label  class ="top"> course subject
+                <select name="subject">
+                 <option value ="">Please select &#9662;</option>
                 <option value =" software">software development</option>
                 <option value =" creative ">creative project</option>
                 <option value =" infor">information technology</option>
@@ -88,9 +84,9 @@
                 </select>
             </label>
             
-            <label> how many Author <input type="number" name=" author"></label>
+            <label  class ="top"> how many Author <input type="number" name=" author"></label>
         </fieldset>
-    <input type="submit" value ="propose my course">
+    <input type="submit" value ="propose my course"class ="submitBtn">
 
         
     </form>

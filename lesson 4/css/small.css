@@ -151,6 +151,64 @@ figure:hover{ box-shadow: 0 0 50px;}
         border-radius: 10px;
         text-align: center;
     }
+/**---form----**/
+form{
+    background-color:aliceblue;
+}
+form fieldset{
+    margin: 1rem;
+    padding:1rem 1%;
+    border-radius: 10px;
+    border:1px solid #444ba9;
+   
+
+}
+form legend{
+    margin:0 ;
+    padding:0 .2rem
+}
+form label.top, form div{
+    display: block;
+    padding-top:1rem;
+}
+
+form label.input{
+    display: block;
+}
+form label.top input,form label.top select{
+display: block;
+border: 1px solid #9999;
+border-radius: 4px;
+padding: .50rem;
+}
+form label.sbs{
+    display: block;
+    padding: .10rem 0;
+    color: darkgoldenrod;
+
+}
+form input.submitBtn{
+    background-color: coral;
+    padding:.50rem 1.5rem;
+    border-radius: 5px;
+    margin:0 0 2rem 2%;
+    color:white;
+    max-width: 20rem;
+}
+
+
+form label.top input:required{
+    border-left:red solid 3px
+
+}
+form label.top input:required:valid{
+    border-left:green solid 3px
+
+}
+
+
+
+
 
 
 
