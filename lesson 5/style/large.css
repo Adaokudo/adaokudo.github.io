@@ -1,0 +1,105 @@
+/** large viewpoint**/
+@media only screen and (min-width:1100px){
+  
+    #logo img{
+      min-width: 180px;
+     }
+     
+     
+    body{
+      background-image: url("/site-plan/site-images/weather-sk3.jpg");
+       color: black;
+       font-family: "Mate Sc", serif;
+       font-size: 1.5rem;
+     }
+     
+    .heading{
+      font-size: 2rem;
+     }
+    .motto{
+      font-size: 1.1rem;
+    }
+
+    }
+    nav  {
+        font-size: 1.5em;
+         
+    }
+    nav ul{
+      list-style-type:none;
+      
+       
+    }
+    
+    nav ul li a{
+        padding: 1.5rem; 
+        font-size: 1.8rem;
+    }
+    
+    
+    .article{
+      text-align: justify;
+        font-size: 25px;
+    }
+    
+    
+    .towns{
+      grid-template-columns: repeat(3,  1fr);
+      
+  }
+  
+
+    .herodiv{
+      
+        position: relative;
+        min-height: 300px;
+        margin-top: 0;
+       }
+       h2{
+         margin: 0 0 .5rem
+       }
+       
+       p{
+         margin:0 auto
+       }
+       
+       .stats span{
+         font-style: italic;
+           font-weight: 700;
+       }
+       article .article-img {
+        width: 400px;
+        grid-template-columns: 2/2;
+    }
+       footer > p {
+        font-size: 1.7rem;
+        line-height: 20px;
+      }
+      .contact{
+       font-size: 1rem;
+       font-weight: lighter;
+       line-height: 25px;
+      
+     }
+     .bottom>img{
+      width:70%
+    }
+   
+     
+      .social>img{
+        width:10%
+      }
+     
+    
+      
+
+
+    
+  
+          
+      
+        
+       
+       
+         
+    
