@@ -48,10 +48,6 @@
        
     }
     
-
-    
-    
-
     .herodiv{
       
         position: relative;
@@ -72,7 +68,7 @@
        }
        article.article-img {
         width: 400px;
-        grid-template-columns: 2/2;
+        /**grid-template-columns: 2/2;**/
     }
        footer > p {
         font-size: 1.7rem;

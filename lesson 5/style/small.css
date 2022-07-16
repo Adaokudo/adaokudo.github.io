@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
-*
+
 
 body{
     /**background-image: url("/site-plan/site-images/weather-sk3.jpg");**/
@@ -141,11 +141,9 @@ main p, a {
   }
 
 .towns{
- 
+    display:grid;
     grid-template-columns: repeat(1, 1fr);
-    gap:15px;
-  
-    
+    gap:15px;   
      
 }
 section{
