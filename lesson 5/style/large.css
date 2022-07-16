@@ -5,7 +5,6 @@
       min-width: 180px;
      }
      
-     
     body{
       background-image: url("/site-plan/site-images/weather-sk3.jpg");
        color: black;
@@ -43,11 +42,15 @@
     }
     
     
-    .towns{
-      grid-template-columns: repeat(3,  1fr);
-      
-  }
   
+   .towns{
+        grid-template-columns: repeat(3, 1fr);
+       
+    }
+    
+
+    
+    
 
     .herodiv{
       
@@ -67,7 +70,7 @@
          font-style: italic;
            font-weight: 700;
        }
-       article .article-img {
+       article.article-img {
         width: 400px;
         grid-template-columns: 2/2;
     }
@@ -81,7 +84,7 @@
        line-height: 25px;
       
      }
-     .bottom>img{
+     .contact>img{
       width:70%
     }
    

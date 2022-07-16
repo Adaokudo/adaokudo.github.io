@@ -139,25 +139,35 @@ main p, a {
     box-shadow: 0 0 30px #333;
     opacity: 0.9
   }
-  
-  .towns{
-    display:grid;
+
+.towns{
+ 
     grid-template-columns: repeat(1, 1fr);
-    gap:15px;  
-  }
+    gap:15px;
+  
+    
+     
+}
 section{
     display:block;
-    padding: 1rem ;  
-    border: 2px solid black;
+    margin:0;
+    padding: 1rem ;
+    border: 1px solid black;
     text-align: center;
+    
       
 }
 img{
-    width:100%;
-    margin: 0 auto; 
-
+    width:60%;
     padding: 1px;
 }
+
+.moto{
+    line-height: 20px;
+   text-overflow:inherit;
+    font-style: italic;
+}
+
   .weather summary > h3 {
     margin: 0;
     margin-bottom: 10px;
