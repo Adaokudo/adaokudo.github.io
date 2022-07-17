@@ -6,10 +6,10 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title> ADAOBI OKUDO </title>
 	<!-- <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" > -->
-  <link rel="stylesheet" href="css/Normalize.css">
-  <link rel="stylesheet" href="css/small.css"> 
-  <link rel="stylesheet" href="css/medium.css">  
-	<link rel="stylesheet" href="css/large.css">
+  <link rel="stylesheet" href="preston-css/Normalize.css">
+  <link rel="stylesheet" href="preston-css/small.css"> 
+  <link rel="stylesheet" href="preston-css/medium.css">  
+	<link rel="stylesheet" href="preston-css/large.css">
   
     
 </head>
@@ -21,6 +21,7 @@
     <header>
       <div id="logo">
         <picture>
+           
             <img src = "images/weather-icon-png-2.png" alt = "my logo">
         </picture>
        </div>
@@ -45,12 +46,13 @@
       <h2>Preston Idaho</h2>
 	    <div class="herodiv">    
         <!----  <img src="images/wdd230_image_franklinOriginal.jpeg" alt="sun image">--> 
-		    <section class="stats">	
-        <h3>Weather Summary</h3>
-        <p>Location  <span class="value">Asaba</span></p>
-        <p>Currently: <span class="value">Sunny</span></p>
-        <p>Humidity: <span class="value">77% </span></p>
-        <p> windchill:<span class="value"><span id="windchill">57</span>F</span>
+		<section class="stats">	
+        <h3>Weather Summary</h3> 
+        <p>Currently:<span id="currently"> </span> </p>
+        <p>High:<span id="current-temp"></span>&deg; F</p>
+        <p>wind Chill:<span id="windchill"></span> N/A</p>
+        <p>Humidity: <span id="humidity"></span>%</p>
+        <p>wind Speed:<span id="windspeed"></span>mph</span>
   
        </section>
       </div>
@@ -58,27 +60,27 @@
           <h3>5 days forcast</h3>
           <div class = "days">
             <span class="sun">Monday</span>
-            <img src ="sun.jpg" alt= "sun image">
+            <img src ="images/sun.jpg" alt= "sun image">
             <span class="forcast">sunny</span>
           </div>
           <div class = "days">
             <span class="sun">Tuesday</span>
-            <img src ="sun.jpg" alt= "sun image">
+            <img src ="images/sun.jpg" alt= "sun image">
             <span class="forcast">sunny</span>
           </div>
           <div class = "days">
               <span class="sun">Wenesday</span>
-              <img src ="sun.jpg" alt= "sun image">
+              <img src ="images/sun.jpg" alt= "sun image">
               <span class="forcast">sunny</span>
             </div>
            <div class = "days">
                 <span class="sun">Thursday</span>
-                <img src ="sun.jpg" alt= "sun image">
+                <img src ="images/sun.jpg" alt= "sun image">
                 <span class="forcast">sunny</span>
              </div>
             <div class = "days">
                 <span class="sun">Friday</span>
-                <img src ="sun.jpg" alt= "sun image">
+                <img src ="images/sun.jpg" alt= "sun image">
                 <span class="forcast">sunny</span>
             </div>
       </div>
@@ -118,6 +120,7 @@
         </footer>  
         <script src="js/preston.js"></script>
         <script src="js/windchill.js"></script>
+        <script src="js/weatherapi.js"></script>
   
      </div> 
   
