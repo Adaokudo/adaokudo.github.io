@@ -142,7 +142,7 @@ main p, a {
 
 .town{
     display: grid;
-     grid-template-columns: 1fr;    
+    grid-template-columns: 1fr;    
     gap:10px;
   
 }
@@ -150,15 +150,16 @@ main p, a {
 
 section{
     margin: 0 15px;
-    padding: 15px;  
+    padding: 10px;  
     border: 1px solid black;
     text-align: center;
 }  
       
-img{
-    width: 80%;
+section img{
+    max-width: 80%;
     display: block;
     margin: 0 auto;
+   
     
    
 }
@@ -227,10 +228,11 @@ article .article-img {
    }
    
 
-.footer{
+   .footer{
     display: flex;
     }
 .bottom{
+       
         padding: 0.5rem;
         margin: 0 auto;
         background: skyblue;
@@ -238,6 +240,8 @@ article .article-img {
 } 
 .contact{
     font-size: 1rem;
+    
+ 
 }
 
 .contact-img{
@@ -246,6 +250,10 @@ article .article-img {
     margin-left: 0 ;
     margin-bottom: 1em;
 }
+
+
+
+
 
 
 

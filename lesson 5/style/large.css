@@ -43,16 +43,16 @@
     
     
   
-   .town{
-        grid-template-columns:1fr 1fr 1fr
+   .towns{
+        grid-template-columns:repeat(3, 1fr)
        
     }
-    
-    
-    img{
-      width: 80%;
-      padding-top: 1rem;
+    section img{
+      max-width: 50%;
     }
+      
+   
+    
     .herodiv{
       
         position: relative;
