@@ -1,6 +1,4 @@
 
-    
-
       const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=a7a69781fb409f3db2c4caeba2acd42a";
      
       
