@@ -2,7 +2,7 @@
 
 
 body{
-    /**background-image: url("/site-plan/site-images/weather-sk3.jpg");**/
+    
     background-color: white;
     color: black;
     font-family: "Mate Sc", serif;
@@ -97,8 +97,9 @@ h1,h2,h3{
     white-space: normal;
 }
 h3 {
+    font-style: italic;
     padding-left: 1em;
-    text-decoration: underline;
+    font-size: .9rem;
   
 }
   
@@ -136,6 +137,7 @@ main p, a {
     opacity: 0.9
   }
 
+
 img{display: block;
   max-width: 100%;
   margin: 0 auto;
@@ -162,12 +164,8 @@ section img{
     display: block;
     margin: 0 auto;
    
-    
-   
+      
 }
-
-
-
   .weather summary > h3 {
     margin: 0;
     margin-bottom: 10px;
@@ -175,12 +173,14 @@ section img{
     border-bottom: 3px solid #faff81;
     font-weight: normal;
 }
-    
-.article {
+.article-text{
+   
+}   
+.article{
         border: 3px solid #939696;
         border-radius: 1em;
         padding: 0 1em;
-        margin: 1em;
+        margin: em;
     }
 
 .article > p{
