@@ -17,7 +17,7 @@ fetch(requestURL)
             let moto = document.createElement('p');
             let p2 = document.createElement('p');
             let p3 = document.createElement('p');
-            let p4 = document.createElement('p');
+            let p4 = document.createElement('p');               
             let img = document.createElement('img');
 
 
@@ -29,7 +29,8 @@ fetch(requestURL)
             moto.innerHTML = towns[i].motto;
             moto.setAttribute('class', 'moto');
             card.appendChild(moto);
-        
+
+            
     
             p2.innerHTML = 'Year Founded: ' + towns[i].yearFounded;
             p2.setAttribute('class', towns[i].name + 'year');
