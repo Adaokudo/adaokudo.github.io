@@ -151,7 +151,6 @@ img{display: block;
   
 }
 
-
 section{
     margin: 0 15px;
     padding: 10px;  
@@ -173,9 +172,7 @@ section img{
     border-bottom: 3px solid #faff81;
     font-weight: normal;
 }
-.article-text{
-   
-}   
+
 .article{
         border: 3px solid #939696;
         border-radius: 1em;
